@@ -1,19 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jane Mumbi Nyaguthii | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <h1>JANE MUMBI NYAGUTHII</h1>
-        <h2>ICT Diploma Graduate | Aspiring Web developer</h2>
-        <p>Passionate about building user-friendly, efficient tech solutions. skilled in HTML, CSS, Javascript, networking, and IT support</p>
-        <div>
-            <a href="mailto:janenyaguthii931@gmail.com">Email</a>
-            <a href="https://github.com/Mumbinyaguthii">Github</a>
-            <a href="https://www.linkedin.com/in/jane-nyaguthii-33a6142a9/">linkedin</a>
-        </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#labs">Lab Challenges</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
-</body>
+
+    <section id="home">
+      <img src="images/WhatsApp Image 2025-01-21 at 20.56.57_2db0e49f.jpg"alt="Jane Mumbi"class="profile-pic"/>
+      <h1>Jane Mumbi Nyaguthii</h1>
+      <p>Aspiring Data Analyst | ICT Graduate | Problem Solver</p>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <h3>Academic Background</h3>
+      <p>Diploma in ICT, Graduated 2025</p>
+
+      <h3>Work Experience</h3>
+      <p>i did sales for 5 months</p>
+
+      <h3>Certifications</h3>
+      <ul>
+        <li>Certificate in Python for Data Analysis</li>
+        <li>Google Excel Skills for Business</li>
+      </ul>
+
+      <h3>Skills</h3>
+      <ul>
+        <li>Python, JavaScript</li>
+        <li>Data Cleaning & Wrangling</li>
+        <li>Excel, Git, HTML/CSS</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Netflix Data Wrangling</h3>
+        <p>
+          Cleaned and analyzed Netflix shows dataset using Pandas. Identified
+          trends in genres and countries.
+        </p>
+        <p><strong>Tools:</strong> Python, Pandas</p>
+      </div>
+      <div class="project">
+        <h3>Titanic EDA (Exploratory Data Analysis)</h3>
+        <p>
+          Performed exploratory data analysis on the Titanic dataset. Visualized
+          survival rates and data correlations.
+        </p>
+        <p><strong>Tools:</strong> Python, Pandas, Matplotlib, Seaborn</p>
+        <p>
+          <a
+            href="https://www.kaggle.com/code/janenyaguthii/titanic-data-exploration"
+            >View on Kaggle</a
+          >
+        </p>
+      </div>
+      <div class="project">
+        <h3>Apple Store Website/ product page</h3>
+        <p>Developed a responsive Apple Store website clone hosted on GitHub.
+          Implemented product sections and cart design.
+        </p>
+        <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+        <p>
+          <a href="https://github.com/Mumbinyaguthii/product-page">View on GitHub</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="labs">
+      <h2>Lab Challenges</h2>
+      <div class="lab">
+        <h3>Titanic Data Cleaning Lab</h3>
+        <p><strong>Problem:</strong> Prepare Titanic dataset for machine learning
+          analysis by handling nulls and encoding features.</p>
+        <p><strong>Approach:</strong> Used Pandas and Seaborn to clean data, fill
+          missing values, and visualize survival patterns.</p>
+        <p><strong>Tools:</strong> Python, Pandas, Seaborn</p>
+        <p><strong>Lessons:</strong> Mastered data preprocessing and EDA
+          techniques for structured datasets.</p>
+      </div>
+      <div class="lab">
+        <h3> <u>Data Cleaning Lab</u></h3>
+        <p><strong>Problem:</strong> Clean messy CSV data for analysis.</p>
+        <p><strong>Approach:</strong> Used Pandas to handle nulls, duplicates,
+          and format inconsistencies.</p>
+        <p><strong>Tools:</strong> Python, Pandas</p>
+        <p><strong>Lessons:</strong> Efficiency in using `.dropna()`, `.fillna()`, and `.astype()`.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact">
+        <a href="mailto:janenyaguthii931@gmail.com">janenyaguthii931@gmail.com</a>
+        <a href="https://www.linkedin.com/in/jane-nyaguthii-33a6142a9/"target="_blank">LinkedIn</a>
+        <a href="https://github.com/Mumbinyaguthii" target="_blank">GitHub</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Jane Mumbi Nyaguthii. All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>
